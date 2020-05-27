@@ -1,0 +1,381 @@
+  body .general {
+      background-position: -157px 0;
+      width: 40px;
+      height: 40px;
+  }
+  
+  #setAccount ul,
+  div {
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  #setAccount .dialog .tabs a li {
+      text-decoration: none;
+      padding: 0 10px;
+      font-size: 12px;
+  }
+  
+  #setAccount .dialog .tabs {
+      background: #fff;
+      border-right: 1px solid #ebebeb;
+      border-left: 1px solid #ebebeb;
+      -webkit-border-radius: 4px 4px 0 0;
+      border-radius: 4px 4px 0 0;
+      position: relative;
+      width: 132px;
+      height: 411px;
+  }
+  
+  #setAccount .dialog .tabs .label {
+      padding: 0px 10px;
+      color: #262626;
+      font-weight: bold;
+      font-size: 12px;
+      text-shadow: 0 1px 0 #fff;
+      border-width: 0 1px;
+  }
+  
+  .account {
+      background-position: 0 -153px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .shortcut {
+      background-position: -80px -153px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .smartlist {
+      background-position: -157px -40px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .notification {
+      background-position: -60px -93px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  .about {
+      background-position: -40px -153px;
+      width: 40px;
+      height: 40px;
+  }
+  
+  #setAccount .icon {
+      background-image: url(../img/app.png);
+      cursor: pointer;
+      vertical-align: middle;
+      display: inline-block;
+      -webkit-flex-shrink: 0;
+      flex-shrink: 0;
+      -webkit-transform: scale(.6);
+      -moz-transform: scale(.6);
+      -o-transform: scale(.6);
+      -ms-transform: scale(.6);
+      transform: scale(.6);
+      margin: 0 -10px;
+      vertical-align: middle;
+  }
+  
+  .dialog {
+      background: #fafafa;
+      box-shadow: 0 1px 25px;
+      border-radius: 3px;
+      width: 700px;
+      height: 465px;
+      margin: 80px auto;
+  }
+  
+  .content {
+      display: flex;
+  }
+  
+  #setAccount .avatar-frame {
+      margin: 14px 0;
+      position: relative;
+      padding: 1px 0px;
+      border-bottom: 1px solid #e0e0df;
+  }
+  
+  .setting {
+      width: 82%;
+      height: auto;
+      margin: 0px 14px;
+  }
+  
+  #setAccount.avatar {
+      width: 120px;
+      height: 120px;
+      margin: 15px auto;
+      padding-bottom: 14px;
+  }
+  
+  .avatar:hover {
+      opacity: 1;
+  }
+  
+  #setAccount img {
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      margin: 0px auto;
+  }
+  
+  #seAccount .bottom {
+      border-top: 1px solid #e0e0df;
+  }
+  
+  #setAccount.done {
+      padding: 12px;
+      width: 20%;
+      margin-left: auto;
+  }
+  
+  #setAccount .done:hover {
+      opacity: 0.7;
+  }
+  
+  #setAccount .btn {
+      font-weight: bold;
+      color: #fff;
+      background-color: #328ad6;
+      box-shadow: inset 0 0 0 1px #328ad6;
+      border: none;
+      border-radius: 3px;
+      padding: 8px 12px;
+      width: 100%;
+  }
+  
+  .acount-setting .cols {
+      display: flex;
+      margin-bottom: 14px;
+      justify-content: flex-end;
+  }
+  
+  .acount-setting .cols:last-child {
+      margin-top: 14px;
+  }
+  
+  .acount-setting {
+      margin: 14px 0;
+      position: relative;
+      padding: 1px 0px;
+      border-bottom: 1px solid #e0e0df;
+  }
+  
+  .label {
+      font-size: 13px;
+      padding: 0 7px;
+  }
+  
+  .input {
+      padding: 0px 7px;
+  }
+  
+  #setAccount input {
+      box-sizing: border-box;
+      padding: 6px;
+      font-weight: 500;
+      font-size: 15px;
+      color: #262626;
+      border: none;
+      background: #fff;
+      box-shadow: inset 0 0 0 1px #d6d6d6;
+      border-radius: 3px;
+  }
+  
+  .email {
+      width: 219.28px;
+      color: #737272;
+  }
+  
+  #setAccount .user {
+      width: 372.77px;
+  }
+  
+  #setAccount button {
+      color: #737272;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 8px 12px;
+      background: #fafafa;
+      box-shadow: inset 0 0 0 1px #d6d6d6;
+      border: none;
+      border-radius: 3px;
+      line-height: 13px
+  }
+  
+  #setAccount a text {
+      color: #328ad6;
+      font-weight: bold;
+      font-size: 13px;
+  }
+  
+  .changeEmail {
+      width: 139.48px;
+  }
+  
+  .changePass {
+      width: 219.28px;
+  }
+  
+  #setAccount .setting_account_email {
+      text-align: center;
+  }
+  
+  #setAccount .buttom {
+      padding: 0 7px;
+  }
+  
+  .buttom .changePass {
+      margin-right: 152px;
+  }
+  
+  #setAccount li:active {
+      background-color: rgba(0, 0, 0, 0.08);
+  }
+  
+  #setAccount li:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+  }
+  /* General */
+  
+  .setting-general {
+      width: 82%;
+      height: auto;
+      margin: 0px 14px;
+  }
+  
+  .setting-general select {
+      border-radius: 3px;
+      font-size: 13px;
+      color: #262626;
+      /* padding: 8px 26px 8px 8px; */
+      padding: 0 5px;
+      border: none;
+      box-shadow: inset 0 0 0 1px #d6d6d6;
+      height: 33px;
+  }
+  
+  #setAccount text {
+      font-size: 13px;
+      /* margin: 0 7px; */
+  }
+  
+  #setAccount.acount-setting text {
+      vertical-align: -webkit-baseline-middle;
+  }
+  
+  .select {
+      margin: 0 7px;
+  }
+  
+  .setting-general #language {
+      width: 139px;
+  }
+  
+  .setting-general #date {
+      width: 117px;
+  }
+  
+  .setting-general #week {
+      width: 87px;
+  }
+  
+  #setAccount.separator {
+      margin: 14px;
+      position: relative;
+      /* padding: 1px 0px; */
+      border-bottom: 1px solid #e0e0df;
+  }
+  
+  #setAccount.separator .cols {
+      margin-bottom: 14px;
+  }
+  
+  #radio {
+      -webkit-appearance: none;
+      border-radius: 11px;
+      width: 16px;
+      height: 16px;
+      margin-left: 6px;
+      margin-right: 5px;
+      vertical-align: bottom;
+  }
+  
+  input:focus {
+      outline: none;
+  }
+  
+  input[type=radio]:checked {
+      width: 4px;
+      height: 4px;
+      top: 10px;
+      left: 6px;
+      background-position: -341px -56px;
+      background-image: url(../img/app.png);
+  }
+  /* Smart list */
+  
+  .setting-smartlist {
+      height: 411px;
+      overflow: auto;
+      width: 82%;
+      /* margin: 0px 1px 0 1px; */
+  }
+  
+  .setting-smartlist select {
+      border-radius: 3px;
+      font-size: 13px;
+      color: #262626;
+      /* padding: 8px 26px 8px 8px; */
+      padding: 0 5px;
+      border: none;
+      box-shadow: inset 0 0 0 1px #d6d6d6;
+      height: 33px;
+      width: 130px;
+  }
+  
+  #setAccount svg {
+      vertical-align: middle;
+  }
+  
+   ::-webkit-scrollbar {
+      width: 6px !important;
+  }
+  
+   ::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+  }
+  /* Shortcut */
+  
+  .setting-shortcut {
+      height: 411px;
+      overflow: auto;
+      width: 82%;
+      /* margin: 0px 1px 0 1px; */
+      text-align-last: right;
+  }
+  
+  .setting-shortcut input {
+      width: 260.1px;
+      text-align-last: center;
+  }
+  
+  .setting-shortcut .buttom {
+      margin: 14px 8px 28px;
+  }
+  
+  #setAccount {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      /* z-index: 1; */
+      display: none;
+  }

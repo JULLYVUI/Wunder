@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Lato", "Open Sans", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", "Hiragino Kaku Gothic Pro", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', Meiryo, "Geneva CY", "Lucida Grande", "Arial Unicode MS", "Helvetica Neue", "Arial", Sans-Serif;
+    color: #423e3e;
+    background-color: #fafafa;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 360px;
+}
+
+#cookie {
+    text-align: center;
+    font-size: 14px;
+    min-height: 30px;
+    padding: 10px;
+    background: #edf2fc;
+    border-bottom: 1px solid rgba(36, 123, 198, 0.15);
+}
+
+.cookie-content {
+    color: #666;
+}
+
+a {
+    font-weight: bold;
+    color: #2b88d9;
+    text-decoration: none;
+}
+
+#logo {
+    background-image: url(../img/flat-icon.png);
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+    margin: 10px auto 0 auto;
+}
+
+#form-login {
+    max-width: 370px;
+    min-width: 320px;
+    background-color: #ffff;
+    margin: 30px auto 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(50, 50, 50, 0.08);
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+#form-login .row {
+    height: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.row .icon .email {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 15px 5px;
+    font-size: 16px;
+    line-height: 15px;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
